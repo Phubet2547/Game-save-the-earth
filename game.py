@@ -25,6 +25,7 @@ apple_pen.penup()
 
 timer_text = turtle.Turtle()
 timer_text.color("red")
+time_text.hideturtle()
 timer_text.goto(0,160)
 start = time.time()
 while time.time() - start < 21:
