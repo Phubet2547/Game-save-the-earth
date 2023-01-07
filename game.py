@@ -10,7 +10,6 @@ wn.register_shape("2.gif")
 wn.register_shape("3.gif")
 earth = turtle.Turtle() 
 earth.shape("1.gif") 
-earth.speed(0) 
 clicks = 0 
 pen = turtle.Turtle() 
 pen.hideturtle() 
